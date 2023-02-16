@@ -6,6 +6,8 @@
 	configuration should be private.
 	-->
 	<configurations>
+		<conf name="compile" visibility="public" />
+		<conf name="test" visibility="private" />
 	</configurations>
 	
 	<!--
@@ -24,5 +26,9 @@
 	version.
 	-->	
     <dependencies defaultconf="compile">
+	<dependency conf="compile->default" org="org.apache.maven.plugins"
+	→ name="maven-assembly-plugin" rev="4.0.0"/>
+	<dependency conf="test->default" org="org.apache.maven.plugins"
+	→ name="maven-assembly-plugin" rev="4.0.0"/>
     </dependencies>
 </ivy-module>
