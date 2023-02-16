@@ -28,7 +28,7 @@
 	  -->
 	    
 	<ivy:retrieve pathid="compile.classpath"
-	→ pattern="${ivy.lib.dir}/[conf]/[artifact].[ext]" />
+	,→ pattern="${ivy.lib.dir}/[conf]/[artifact].[ext]" />
 	<ivy:cachefileset setid="compile.classpath" conf="compile" />
 	<ivy:cachefileset setid="test.classpath" conf="test" />
 	    
