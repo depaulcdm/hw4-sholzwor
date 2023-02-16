@@ -6,6 +6,10 @@
 	the version should be '1.0-SNAPSHOT. The packaging for this artifact
 	should be 'jar'.
 	-->
+	<groupId>edu.depaul.cdm.se441</groupId>
+	<artifactId>hello-world</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>SE441 Hello World</name>
 	
     <properties>
@@ -20,6 +24,21 @@
 	log4j v.1.2.17 (for everything)
 	junit v.4.12   (for testing only)
 	-->
+	
+	<dependencies>
+		<dependency>
+			<groupId>edu.depaul.cdm.se441</groupId>
+			<artifactId>hello-world</artifactId>
+			<version>4.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>edu.depaul.cdm.se441</groupId>
+			<artifactId>hello-world</artifactId>
+			<version>4.0.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 	
     <build>
 	  <plugins>
