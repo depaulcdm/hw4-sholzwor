@@ -29,13 +29,13 @@
 		<dependency>
 			<groupId>edu.depaul.cdm.se441</groupId>
 			<artifactId>log4j</artifactId>
-			<version>v.1.2.17</version>
+			<version>1.2.17</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>edu.depaul.cdm.se441</groupId>
 			<artifactId>junit</artifactId>
-			<version>v.4.12</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
