@@ -27,8 +27,7 @@
 	  and the ID of the second should be 'test.classpath'.
 	  -->
 	    
-	<ivy:retrieve pathid="compile.classpath"
-	,→ pattern="${ivy.lib.dir}/[conf]/[artifact].[ext]" />
+	<ivy:retrieve pathid="compile.classpath" pattern="${ivy.lib.dir}/[conf]/[artifact].[ext]" />
 	<ivy:cachefileset setid="compile.classpath" conf="compile" />
 	<ivy:cachefileset setid="test.classpath" conf="test" />
 	    
