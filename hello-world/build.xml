@@ -44,6 +44,11 @@
 		TODO: Define the classpath to be a combination of the 'compile.classpath' fileset
 		created by the "resolve" target above and a pathelement of the 'classes.dir' property.
 		-->
+		  
+		<classpath>
+			<fileset refid="compile.classpath"/>
+			<pathelement path="${classes.dir}" />
+		</classpath>
 	  </javac>
 	</target>
 
