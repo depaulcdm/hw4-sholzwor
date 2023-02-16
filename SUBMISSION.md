@@ -1,5 +1,5 @@
 # Instructions
-**TODO:** Replace this line with your name and student ID.
+**TODO:** name = "Sarah Holzworth" studentid = "sholzwor"
 
 **TODO:** Add your screen captures to a new directory called [images](images).
 
